@@ -3,6 +3,7 @@
     font-style: italic;
     line-height: 30px;
     text-align: justify;
+    font-size: 20px;
 }
 
 .a2 {
@@ -27,4 +28,5 @@
     letter-spacing:  5px;
     text-decoration: underline;
     text-decoration-style: double;
+
 }
