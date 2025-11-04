@@ -1,0 +1,30 @@
+.a1 {
+    font-family: "Open Sans";
+    font-style: italic;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.a2 {
+    text-decoration: line-through;
+}
+
+.a3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.a4 {
+    word-spacing: 30px;
+    color: purple;
+    text-decoration-line: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: purple;
+
+}
+
+.a5 {
+    letter-spacing:  5px;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
