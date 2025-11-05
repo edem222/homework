@@ -1,0 +1,19 @@
+.a1 {
+    width: 1000px;
+    height: 600px;
+    background: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    overflow: auto;
+}
+.a2 {
+    background: wheat;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 220px;
+    height: 200px;
+    margin: 5px;
+    display: inline-block;
+    box-shadow: inset 0 0 10px;
+}
