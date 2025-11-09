@@ -1,0 +1,83 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+height:100%;width:100%;
+font-size:100%;line-height:1;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+a{color:inherit;}
+.area__place--for-red{transform:translate(440px,590px);}.area__place--for-green{transform:translate(200px,-100px)rotate(115deg);}.area__place--for-blue{transform:translate(630px,-300px)scale(-2);}
+
+.wrapper {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.quads {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.quads__quad {
+    width: 200px;
+    height: 200px;
+    background: #757272;
+    border-radius: 5px;
+}
+
+.quads__quad--red {
+    background: linear-gradient(130deg, rgb(252, 67, 67), rgb(215, 106, 47));
+}
+.quads__quad--green {
+    background: linear-gradient(130deg, rgb(25, 186, 38), rgb(47, 215, 167));
+}
+.quads__quad--blue {
+    background: linear-gradient(130deg, rgb(33, 25, 186), rgb(160, 44, 193));
+}
+
+.area {
+    flex: 1 0 auto;
+    border: 5px dashed #333;
+    height: 800px;
+}
+
+.area__place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    width: 200px;
+    height: 200px;
+    pointer-events: none;
+    border-radius: 5px;
+    border: 5px dashed #8f8787;
+    color: #8f8787;
+}
+
+/* ================== Выполнение дз ниже =================== */
+
+.quads__quad--red {
+    transform: translate(322%, 298%);
+}
+
+.quads__quad--green {
+    transform: translate(203%, -47%) rotate(25deg);
+}
+
+.quads__quad--blue {
+    transform: translate(418%, -147%) scale(2);
+}

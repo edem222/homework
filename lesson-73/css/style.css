@@ -1,0 +1,41 @@
+body {
+    background: gray;
+}
+
+.a1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    font-size: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50vh;
+    height: 200px;
+    width: 200px;
+    background: black;
+}
+
+.block:hover {
+    color: green;
+    transition: color 1s .25s;
+}
+
+.a3 {
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;   
+    height: 25px;
+    border-radius: 5px;
+    background: #fff;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+
+.block:hover .a3 {
+    opacity: 1;
+    transition: opacity .8s;
+}
