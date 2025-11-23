@@ -4,7 +4,7 @@ let num1 = +prompt("Введите число");
 
 if (num1%2===0) {
     console.log("Число четное")
-} else if (num1%2 === 1 || num1%2 === -1){
+} else if (num1%2!==0){
     console.log("Число нечетное")
 } else {
     console.log("Введенное значение не число")
@@ -73,4 +73,5 @@ finalPrice = deliveryRates * pricePerWeight;
 
 
 console.log(`Итоговая стоимость доставки: ${finalPrice}$`)
+
 
