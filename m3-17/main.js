@@ -14,7 +14,7 @@ if (num1%2===0) {
 
 let age1 = +prompt("Введите ваш возраст");
 
-let discount = age1 < 18 ? "10%" : (age <= 65 ? "20%" : "30%");
+let discount = age1 < 18 ? "10%" : (age1 <= 65 ? "20%" : "30%");
 
 console.log(discount)
 
@@ -73,3 +73,4 @@ finalPrice = deliveryRates * pricePerWeight;
 
 
 console.log(`Итоговая стоимость доставки: ${finalPrice}$`)
+
