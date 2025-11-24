@@ -1,0 +1,25 @@
+* {
+    border-collapse: collapse;
+}
+
+caption {
+    border: 2px solid black;
+    border-bottom: none;
+}
+
+th {
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid black;
+}
+
+.a1 {
+    color: red;
+}
+
+table {
+    width: 20vw;
+    height: 15vh;
+}
