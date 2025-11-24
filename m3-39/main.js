@@ -15,12 +15,12 @@ let obj = {};
 
 function isEmpty(object) {
     for (let i in object) {
-        console.log(false);
+        return false;
     }
-    console.log(true);
+    return true;
 };
 
-isEmpty(obj);
+console.log(isEmpty(obj))
 
 console.log("Задание 3");
 
@@ -63,7 +63,7 @@ const myObject = {
 function callAllMethods(object1) {
     for (let i in object1) {
         if (typeof object1[i] == "function") {
-            console.log(object1[i]());
+            object1[i]();
         }
     }
 };
