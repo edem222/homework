@@ -49,7 +49,7 @@ const completeTodoByDay = (todos, todoDay) => {
 const deleteTodoById = (todos, todoId) => {
   const todoIndex = todos.findIndex(todo => todo[todoKeys.id] === todoId);
   if (todoIndex === -1) {
-    console.error(errTodoNotFound(todoId));
+    console.error(errTodoNotFoundId(todoId));
     return todos;
   }
   todos.splice(todoIndex, 1);
@@ -59,7 +59,7 @@ const deleteTodoById = (todos, todoId) => {
 const deleteTodoByDay = (todos, todoDay) => {
   const todoIndex = todos.findIndex(todo => todo[todoKeys.day] === todoDay);
   if (todoIndex === -1) {
-    console.error(errTodoNotFound(todoDay));
+    console.error(errTodoNotFoundDay(todoDay));
     return todos;
   }
   todos.splice(todoIndex, 1);
